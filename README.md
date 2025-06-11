@@ -36,5 +36,5 @@ Run app using: http://localhost:30080 <br>
 Username: demo <br>
 Password: demo <br>
 
- **Important**: Since we use docker as driver, CPU/Memory config should set at docker level. You can see the current config of camunda cluster with command: *kubectl describe node camunda-cluster-control-plane*
+ **Important**: Since we use docker as driver, CPU/Memory config should be set/edit at docker level. You can see the current config of camunda cluster with command: *kubectl describe node camunda-cluster-control-plane*
 
